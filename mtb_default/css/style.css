@@ -2861,3 +2861,104 @@ footer:after {
 #comment-body-add-more-wrapper .filter-wrapper {
   display: none;
 }
+header {
+  background-color: #222;
+  background-color: #222222;
+  background-repeat: repeat-x;
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#333333), to(#222222));
+  background-image: -moz-linear-gradient(top, #333333, #222222);
+  background-image: -ms-linear-gradient(top, #333333, #222222);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #333333), color-stop(100%, #222222));
+  background-image: -webkit-linear-gradient(top, #333333, #222222);
+  background-image: -o-linear-gradient(top, #333333, #222222);
+  background-image: linear-gradient(top, #333333, #222222);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333333', endColorstr='#222222', GradientType=0);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+}
+header h1 a {
+  background-color: #333;
+  background-color: rgba(255, 255, 255, 0.05);
+  color: #ffffff;
+  text-decoration: none;
+  float: left;
+  display: block;
+  padding: 8px 20px 12px;
+  margin-left: -20px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 1;
+}
+/* joujou */
+html, body {
+  background-color: #eee;
+}
+body {
+  padding-top: 40px;
+  /* 40px to make the container go all the way to the bottom of the topbar */
+
+}
+/* The white background content wrapper */
+.page {
+  background-color: #fff;
+  padding: 20px;
+  -webkit-border-radius: 0 0 6px 6px;
+  -moz-border-radius: 0 0 6px 6px;
+  border-radius: 0 0 6px 6px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+/* Page header tweaks */
+.page-header {
+  background-color: #f5f5f5;
+  padding: 20px 20px 10px;
+  margin: -20px -20px 20px;
+}
+.webform-client-form {
+  padding-left: 20px;
+}
+.webform-client-form fieldset {
+  padding-top: 9px;
+}
+.webform-client-form legend {
+  padding-left: 0;
+}
+.webform-client-form label {
+  display: block;
+  float: none;
+  width: auto;
+  font-weight: bold;
+  text-align: left;
+  line-height: 20px;
+  padding-top: 0;
+}
+.webform-client-form .clearfix {
+  margin-bottom: 9px;
+}
+.webform-client-form .clearfix div.input {
+  margin-left: 0;
+}
+.webform-client-form .inputs-list {
+  margin-bottom: 0;
+}
+.webform-client-form .inputs-list li {
+  padding-top: 0;
+}
+.webform-client-form .inputs-list li label {
+  font-weight: normal;
+  padding-top: 0;
+}
+.webform-client-form div.clearfix.error {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin-top: 0;
+  margin-left: -10px;
+}
+.webform-client-form .actions {
+  margin-left: -20px;
+  padding-left: 20px;
+}

@@ -1,5 +1,5 @@
 name = mothership_twitter_bootstrap
-description = mothership subtheme on the twitter bootstrap
+description = mothership BASE THEME on the twitter bootstrap
 engine = phptemplate
 core = 7.x
 php = 5.2

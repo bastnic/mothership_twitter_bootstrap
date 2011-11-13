@@ -1,18 +1,9 @@
 @import "../twitter_bootstrap/lib/bootstrap.less";
 
-header {
-    .topbar-inner;
-
-    h1 {
-        a {
-            .topbar .brand;
-        }
-    }
-}
 
 .page {
     .container;
-    margin-top: 40px;
+    //margin-top: 40px;
 }
 
 .region-content,
@@ -30,6 +21,12 @@ footer {
     .container;
 }
 
+
+/* display none */
+.context-block-region {
+    display: none;
+}
+
 /* form */
 .form-item {
     .clearfix
@@ -39,6 +36,11 @@ footer {
     .btn
 }
 
+/* */
+.messages {
+    .alert-message
+}
+
 /* specific */
 .toolbar-drawer .topbar {
     top: 70px
@@ -46,6 +48,10 @@ footer {
 .region-sidebar-first {
     border-left: 1px solid #EEE;
     padding-left: 19px;
+
+    .input {
+        margin-left: 0;
+    }
 }
 
 #site-name {

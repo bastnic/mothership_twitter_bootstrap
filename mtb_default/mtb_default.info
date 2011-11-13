@@ -1,0 +1,19 @@
+name = mtb_default
+description = mothership subtheme on the twitter bootstrap
+engine = phptemplate
+core = 7.x
+php = 5.2
+
+stylesheets[all][] = css/style.css
+
+scripts[] = js/modernizr-2.0.6.min.js
+scripts[] = js/script.js
+
+base theme = mothership_twitter_bootstrap
+; Information added by drupal.org packaging script on 2011-10-19
+version = "7.x-1.0"
+core = "7.x"
+project = "Mothership Twitter bootstrap default subtheme"
+datestamp = "1319014235"
+
+
