@@ -14,4 +14,4 @@ Twitter bootstrap presentation:
 Links:
 
 * http://drupal.org/project/mothership
-* http://drupal.org/project/mothership
+* http://twitter.github.com/bootstrap/
